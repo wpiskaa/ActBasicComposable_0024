@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Sky Background -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 0,0 H 200 V 200 H 0 Z" />
+
+    <!-- Clock Tower / Abraj Al Bait Silhouette -->
+    <path
+        android:fillColor="#F1F5F9"
+        android:pathData="M 82,20 H 118 V 140 H 82 Z M 92,5 H 108 V 20 H 92 Z M 100,0 L 100,5" />
+
+    <!-- Clock Face -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M 88,38 A 12,12 0 1,1 112,38 A 12,12 0 1,1 88,38 Z" />
+
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 98,30 H 102 V 38 H 108 V 40 H 98 Z" />
+
+    <!-- Kaaba Building Structure -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M 55,100 L 100,118 L 145,100 L 100,82 Z L 55,100 V 160 L 100,178 V 118 Z" />
+
+    <path
+        android:fillColor="#020617"
+        android:pathData="M 100,118 L 145,100 V 160 L 100,178 Z" />
+
+    <!-- Gold Kiswa Band -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 55,112 L 100,130 L 145,112 L 100,94 Z" />
+
+    <!-- Courtyard Marble Floor -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M 0,165 Q 100,145 200,165 V 200 H 0 Z" />
+</vector>

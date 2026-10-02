@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Yellow Gear Border Pattern -->
+    <path
+        android:fillColor="#FFE600"
+        android:pathData="M 100,5 C 150,5 195,50 195,100 C 195,150 150,195 100,195 C 50,195 5,150 5,100 C 5,50 50,5 100,5 Z" />
+
+    <!-- Green Inner Circle -->
+    <path
+        android:fillColor="#005826"
+        android:pathData="M 100,12 C 148,12 188,52 188,100 C 188,148 148,188 100,188 C 52,188 12,148 12,100 C 12,52 52,12 100,12 Z" />
+
+    <!-- Outer Gold Ring Contour -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFE600"
+        android:strokeWidth="2.5"
+        android:pathData="M 100,20 C 144,20 180,56 180,100 C 180,144 144,180 100,180 C 56,180 20,144 20,100 C 20,56 56,20 100,20 Z" />
+
+    <!-- Inner Gold Ring Contour -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFE600"
+        android:strokeWidth="2"
+        android:pathData="M 100,42 C 132,42 158,68 158,100 C 158,132 132,158 100,158 C 68,158 42,132 42,100 C 42,68 68,42 100,42 Z" />
+
+    <!-- Sun Emblem Rays in Center -->
+    <path
+        android:fillColor="#FFE600"
+        android:pathData="M 100,52 L 108,72 L 128,68 L 116,84 L 134,94 L 116,104 L 128,120 L 108,116 L 100,136 L 92,116 L 72,120 L 84,104 L 66,94 L 84,84 L 72,68 L 92,72 Z" />
+
+    <!-- Center Calligraphy Emblem Circle -->
+    <path
+        android:fillColor="#005826"
+        android:pathData="M 100,74 C 114,74 126,86 126,100 C 126,114 114,126 100,126 C 86,126 74,114 74,100 C 74,86 86,74 100,74 Z" />
+
+    <path
+        android:fillColor="#FFE600"
+        android:pathData="M 94,84 Q 106,84 106,96 Q 106,108 94,108 Q 88,108 88,96 Q 88,84 94,84 Z" />
+</vector>

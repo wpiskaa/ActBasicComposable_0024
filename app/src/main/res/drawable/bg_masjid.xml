@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="720">
+
+    <!-- Deep Warm Background Sky & Sun Light -->
+    <path
+        android:fillColor="#3D2612"
+        android:pathData="M 0,0 H 360 V 720 H 0 Z" />
+
+    <!-- Sun Glow in background -->
+    <path
+        android:fillColor="#C89D66"
+        android:pathData="M 0,0 H 360 V 400 H 0 Z" />
+
+    <path
+        android:fillColor="#E8C99B"
+        android:pathData="M 100,100 Q 280,180 360,400 H 0 V 100 Z" />
+
+    <path
+        android:fillColor="#FDF0D5"
+        android:pathData="M 180,200 L 360,350 V 500 L 180,380 Z" />
+
+    <!-- Arch Pillars Frame (Warm Archway) -->
+    <path
+        android:fillColor="#21150A"
+        android:pathData="M 0,0 H 360 V 720 H 0 Z M 40,720 V 240 C 40,110 100,60 180,60 C 260,60 320,110 320,240 V 720 Z" />
+
+    <!-- Arch Pillar Inner Bevel Contour -->
+    <path
+        android:fillColor="#543A1E"
+        android:pathData="M 40,720 V 240 C 40,110 100,60 180,60 C 260,60 320,110 320,240 V 720 H 305 V 245 C 305,120 250,75 180,75 C 110,75 55,120 55,245 V 720 Z" />
+
+    <!-- Ornate Arch Lattice/Railing Pattern at Bottom -->
+    <path
+        android:fillColor="#36220F"
+        android:pathData="M 0,520 H 360 V 720 H 0 Z" />
+
+    <path
+        android:fillColor="#120A04"
+        android:pathData="M 20,540 H 340 V 700 H 20 Z M 40,560 V 680 H 320 V 560 Z" />
+</vector>

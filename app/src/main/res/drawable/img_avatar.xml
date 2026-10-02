@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Gradient Circle -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M 0,0 H 200 V 200 H 0 Z" />
+
+    <!-- Darker Accent Backdrop Arch -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M 0,100 Q 100,20 200,100 V 200 H 0 Z" />
+
+    <!-- User Body / Shoulders -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M 35,200 C 35,145 65,130 100,130 C 135,130 165,145 165,200 Z" />
+
+    <!-- Shirt / Collar Detail -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M 82,130 L 100,165 L 118,130 Z" />
+
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M 96,140 L 100,175 L 104,140 Z" />
+
+    <!-- Head & Neck -->
+    <path
+        android:fillColor="#FDBA74"
+        android:pathData="M 88,115 L 88,135 H 112 L 112,115 Z" />
+
+    <path
+        android:fillColor="#FED7AA"
+        android:pathData="M 62,72 C 62,110 138,110 138,72 C 138,34 62,34 62,72 Z" />
+
+    <!-- Modern Hair Style -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M 60,65 C 58,32 85,22 100,22 C 120,22 142,32 140,65 C 130,45 115,40 100,42 C 82,40 68,48 60,65 Z" />
+</vector>
